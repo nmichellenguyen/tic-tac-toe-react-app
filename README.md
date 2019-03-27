@@ -1,7 +1,7 @@
-Tic-tac-toe React App- Created by Michelle Nguyen 
-[Netlify link: ]
+Tic-tac-toe React App- Created by Michelle Nguyen
+[Netlify link: https://tic-tac-toe-react-app.netlify.com ]
 
-Overview 
+Overview
 Milestone 1: Set up our Workspace & Draw Our Board
 Milestone 2: Pass your first Data
 Milestone 2: Let's Fire Up some Action
@@ -10,7 +10,6 @@ Milestone 4: Time to get Serious
 Milestone 6: Wait, a new Syntax has appeared
 Milestone 6: Implement X/O turn and Figure Out the Winner
 Figure out the winner
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

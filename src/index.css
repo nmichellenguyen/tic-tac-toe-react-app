@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font-family: "Indie Flower", cursive;
   margin: 20px;
+  font-size: 30px;
 }
 
-ol, ul {
+@media only screen and (max-width: 500px) {
+  body {
+    font-family: "Indie Flower", cursive;
+    margin: 10px;
+    font-size: 14px;
+  }
+}
+
+ol,
+ul {
   padding-left: 30px;
 }
 
@@ -20,16 +31,39 @@ ol, ul {
 .square {
   background: #fff;
   border: 1px solid #999;
+  border-radius: 5px;
+  color: rgb(30, 212, 218);
   float: left;
-  font-size: 24px;
+  font-size: 150px;
   font-weight: bold;
+  font-family: "Indie Flower", cursive;
   line-height: 34px;
-  height: 34px;
+  height: 200px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 1015px) {
+  .square {
+    font-size: 50px;
+    font-family: "Indie Flower", cursive;
+    color: rgb(30, 212, 218);
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .square {
+    font-size: 30px;
+    font-family: "Indie Flower", cursive;
+    color: rgb(30, 212, 218);
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .square:focus {
@@ -40,9 +74,19 @@ ol, ul {
   background: #ddd;
 }
 
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.game-board {
+  margin-top: 130px;
 }
 
 .game-info {

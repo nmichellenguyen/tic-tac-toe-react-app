@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
 
 class Square extends React.Component {
@@ -68,8 +69,12 @@ class Game extends React.Component {
   render() {
     return (
       <div className="game">
+        <div>
+          <App className="App" />
+        </div>
+
         <div className="game-board">
-          <Board />
+          <Board className="Board" />
         </div>
         <div className="game-info">
           <div>{/* status */}</div>
